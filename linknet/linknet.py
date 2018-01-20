@@ -5,7 +5,7 @@
 #   https://github.com/raghakot/keras-resnet/blob/master/resnet.py
 #
 #   Meena Mani
-#   January 2017
+#   January 19 2017
 #--------------------------------------------------------------------------------
 
 from __future__ import division
@@ -218,14 +218,7 @@ def build_LinkNet(
 
 
     ## -------  classifier block 
-    output_shape = K.int_shape(final)
-    rows = output_shape[ROW_AXIS]
-    cols = output_shape[COL_AXIS]
-    classify = Reshape((n_classes, rows*cols))(final)
-    classify = Permute((2,1))(classify)
-
-    # classify is a pixelwise probability vector (batch_size, rows*cols, n_classes)
-    classify = Activation('softmax')(classify)
+    classify = Activation('sigmoid')(final)
 
     model = Model(inputs=input, outputs=classify)
 
