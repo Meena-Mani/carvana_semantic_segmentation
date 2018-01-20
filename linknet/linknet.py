@@ -4,7 +4,7 @@
 #   Some of the helper functions have been adapted from ResNet-18
 #   https://github.com/raghakot/keras-resnet/blob/master/resnet.py
 #
-#   Meena Mani
+#   Author: Meena Mani
 #   January 19 2017
 #--------------------------------------------------------------------------------
 
