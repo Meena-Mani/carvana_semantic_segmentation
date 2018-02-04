@@ -1,7 +1,7 @@
 ### Deep learning binary semantic segmentation with U-Net and LinkNet
 
 #### U-Net 
-Here I compare a modified U-Net (which uses ResNet residual modules) with a modified U-Net that used dilated convolutions. The *U-Net+dilated convolution blocks* network won the [third place]() in the [Kaggle Carvana image segmentation competition]().  
+Here I compare a modified U-Net (which uses ResNet residual modules) with a modified U-Net that used dilated convolutions. The *U-Net+dilated convolution blocks* network won the [third place](https://github.com/lyakaap/Kaggle-Carvana-3rd-place-solution) in the [Kaggle Carvana image segmentation competition](https://www.kaggle.com/c/carvana-image-masking-challenge).  
 The Jupyter Notebook and associated model files are in the *modified_unet* directory. 
  
 #### LinkNet     
