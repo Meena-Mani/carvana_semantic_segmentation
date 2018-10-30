@@ -2,11 +2,11 @@
 
 #### U-Net 
 Here I compare a modified U-Net (which uses ResNet residual modules) with a modified U-Net that used dilated convolutions. The *U-Net+dilated convolution blocks* network won the [third place](https://github.com/lyakaap/Kaggle-Carvana-3rd-place-solution) in the [Kaggle Carvana image segmentation competition](https://www.kaggle.com/c/carvana-image-masking-challenge).  
-The Jupyter Notebook and associated model files are in the *modified_unet* directory. 
+The Jupyter Notebook and associated model files are in the [modified_unet](https://github.com/Meena-Mani/carvana_semantic_segmentation/tree/master/modified_unet) directory. 
  
 #### LinkNet     
 This is my implementation of LinkNet in Keras. I use this network on the Carvana Image Masking challenge dataset.  
-The Jupyter Notebook and associated model files are in the *linknet* directory. 
+The Jupyter Notebook and associated model files are in the [linknet](https://github.com/Meena-Mani/carvana_semantic_segmentation/tree/master/linknet-keras) directory. 
 
 
 #### Libraries   
